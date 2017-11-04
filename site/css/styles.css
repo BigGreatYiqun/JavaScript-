@@ -13,7 +13,7 @@ body {
 }
 
 #logo-img {
-  background: url('../images/restaurant-logo_large.png') no-repeat;
+  background: url('../image/restaurant-logo_large.png') no-repeat;
   width: 150px;
   height: 150px;
   margin: 10px 15px 10px 0;
@@ -92,7 +92,7 @@ body {
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
   #logo-img {
-    background: url('../images/restaurant-logo_medium.png') no-repeat;
+    background: url('../image/restaurant-logo_medium.png') no-repeat;
     width: 100px;
     height: 100px;
     margin: 5px 5px 5px 0;
@@ -124,6 +124,13 @@ body {
     height: 20px;
   }
 
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
 
 
   #call-btn > a {
